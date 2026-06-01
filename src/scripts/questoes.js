@@ -1,4 +1,4 @@
-{
+export let questoes = [{
     "1": {
         "A) Michael Jordan": false,
         "B) Kobe Bryant": false,
@@ -35,4 +35,4 @@
         "C) Magic Johnson": false,
         "D) David Robinson": false
     }
-}
+}]
