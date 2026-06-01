@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basecoat-css@0.3.11/dist/basecoat.cdn.min.css">
     <script src="https://cdn.jsdelivr.net/npm/basecoat-css@0.3.11/dist/js/all.min.js" defer></script>
-    <link href="../src/output.css" rel="stylesheet">
-    <link href="../src/styles/style.css" rel="stylesheet">
-    <link href="../src/styles/glass.css" rel="stylesheet">
+    <link href="../output.css" rel="stylesheet">
+    <link href="../styles/style.css" rel="stylesheet">
+    <link href="../styles/glass.css" rel="stylesheet">
     <link href="../styles/perguntas.css" rel="stylesheet">
 </head>
 <body>
@@ -46,24 +46,22 @@
             <div class="opcao">A) Michael Jordan.</div>
             <div class="opcao">B) Kobe Bryant.</div>
             <div class="opcao">C) Kareem Abdul-Jabbar.</div>
-            <div class="opcao" id="correta">D) LeBron James.</div>
+            <div class="opcao">D) LeBron James.</div>
         </div>
         <div class="botoes">
-            <button class="btn-voltar">
-                <a href="../../index.html">
-                    ←  
-                </a>
+            <button class="btn-voltar" type="button" data-href="../../index.html">
+                ←
             </button>
             
-            <button class="btn-proximo">
-                <a href="./pergunta2.html">
-                    Próximo →
-                </a>
+            <button class="btn-proximo" type="button">
+                Próximo →
             </button>
         </div>
     
     </div>
     </div>
 
+
+    <script type="module" src="../scripts/sessaoPergunta1.js"></script>
 </body>
 </html>

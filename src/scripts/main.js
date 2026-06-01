@@ -1,28 +1,19 @@
-import { questoes } from "./questoes";
-let questoesResultado = 0
+import { obterResultadoQuiz } from "./quiz.js";
 
-if (questoes = true) {
-    questoesResultado++
+const mensagensResultado = {
+    0: "Nem tente novamente lil bro 😭🥀🙏",
+    1: "Nem tente novamente lil bro 😭🥀🙏",
+    2: "Você vai ser um eterno rookie!",
+    3: "Você vai ser um eterno rookie!",
+    4: "Você pode ser considerado MVP 🏀⛹️",
+    5: "Você pode ser considerado MVP 🏀⛹️",
+    6: "Você é o GOAT 🐐",
+};
+
+export function obterMensagemResultado() {
+    const resultado = obterResultadoQuiz();
+
+    return mensagensResultado[resultado.acertos] || "Resultado concluído!";
 }
-
-if (questoesResultado<2) {
-    let texto = "Nem tente novamente lil bro 😭🥀🙏"
-} else if (questoesResultado>=2 && questoesResultado <4) {
-    let texto = "Você vai ser um eterno rookie!"
-} else if (questoesResultado>=4 && questoesResultado <6) {
-    let texto = "Você pode ser considerado MVP🏀⛹️"
-} else {
-    let texto = "Você é o GOAT🐐"
-}
-
-
-
-
-
-
-
-
-
-
 
 
