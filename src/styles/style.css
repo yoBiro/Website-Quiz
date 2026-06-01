@@ -1,5 +1,6 @@
 html {
     font-family: url('https://fonts.googleapis.com/css2?family=Geist:wght@400;700&display=swap');
+    letter-spacing: -5%;
 }
 
 body {
@@ -21,5 +22,12 @@ body {
     height: 100%;
     position: absolute;
     inset: 0;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;     
 }
 
